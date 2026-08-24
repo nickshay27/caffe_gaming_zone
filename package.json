@@ -1,5 +1,6 @@
 {
-  "name": "builtbynick-vite-react-starter",
+  "type": "module",
+  "name": "cafe_gamin_zone",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,32 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^9.122.0",
-    "@react-three/fiber": "^8.18.0",
-    "axios": "^1.10.0",
-    "framer-motion": "^12.42.2",
-    "gsap": "^3.15.0",
-    "lenis": "^1.3.25",
-    "lucide-react": "^0.525.0",
+    "axios": "^1.6.8",
+    "framer-motion": "^13.1.1",
+    "lucide-react": "^0.474.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.5.0",
-    "react-intersection-observer": "^9.16.0",
-    "react-parallax-tilt": "^1.7.299",
-    "react-scroll-parallax": "^3.4.5",
-    "react-simple-typewriter": "^5.0.1",
-    "react-slick": "^0.30.3",
-    "react-tsparticles": "^2.12.2",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.2.10",
-    "three": "^0.185.1",
-    "tsparticles": "^3.8.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.2",
-    "vite": "^4.3.9"
+    "@tailwindcss/forms": "^0.5.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.11"
   }
 }
